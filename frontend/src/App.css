@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  background: linear-gradient(135deg, #1DB954 20%, #1ED760 80%);
   font-family: 'VT323', monospace;
   color: #fff;
   text-align: center;
@@ -16,8 +16,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 20px;
+  padding: 40px;
   box-sizing: border-box;
+  width: 90%;
+  /* Adjust width to occupy more space */
+  font-size: 1.3em;
+  /* Slightly bigger font size */
 }
 
 .card {
@@ -66,4 +70,10 @@ p {
   margin-top: 20px;
   font-size: 0.9em;
   word-wrap: break-word;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #fff;
 }
